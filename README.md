@@ -13,7 +13,7 @@ python爬虫 及selenium自动登录
 
 1. #### [QQ空间自动登录](https://gitee.com/Euphoria_wang/python-spider/tree/master/QzoneLogin "悬停显示")
 
-2. #### [12306自动登录](https://gitee.com/Euphoria_wang/python-spider/tree/master/12306Login "悬停显示")
+2. #### [12306自动登录](https://gitee.com/Euphoria_wang/python-spider/blob/master/12306Login.py "悬停显示")
 
 ### [爬虫实战](#爬虫实战)
 

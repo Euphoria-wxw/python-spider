@@ -17,8 +17,8 @@ python爬虫 及selenium自动登录
 
 ### [爬虫实战](#爬虫实战)
 
-1. []( "悬停显示")
-2. 
+1. #### [免登录批量下载网易云音乐]( https://gitee.com/Euphoria_wang/python-spider/blob/master/wangyiyunMusic/wangyiyun.py "悬停显示")
+2. #### [片吧视频下载](https://gitee.com/Euphoria_wang/python-spider/blob/master/pianba-m3u8%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD.py "悬停显示")
 
 ## 自动化实战
 
@@ -56,4 +56,13 @@ password_tag.send_keys('xxx') 	# 12306密码
 
 ## 爬虫实战
 
-3.  
+### wangyiyun.py
+
+功能：根据music.txt文件免登录批量下载网易云音乐
+
+使用说明：编辑music.txt文件，录入需要下载的音乐名称和作者名，执行wangyiyun.py即可
+
+### pianba-m3u8视频下载.py
+
+功能：m3u8文件类型视频下载与合并
+

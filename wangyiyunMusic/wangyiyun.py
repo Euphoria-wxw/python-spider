@@ -6,8 +6,6 @@
 # @FileName:
 # @FileDescription:
 
-# https://music.163.com/#/search/m/?s=%E4%B8%8D%E6%83%B3%E5%81%9A%E6%9C%8B%E5%8F%8B&type=1
-
 # 1.按行读取music.txt文件提取下载歌曲名称
 # 2.根据文本中的歌名查找歌曲获取歌曲id  https://music.163.com/weapi/search/suggest/web
 # https://music.163.com/weapi/cloudsearch/get/web
@@ -171,6 +169,7 @@ def main():
     """
     asyncio.run(get_download_music_name('music.txt'))
     asyncio.run(get_music_url())
+
 
 if __name__ == '__main__':
     starTime = datetime.now()

@@ -17,7 +17,7 @@ python爬虫 及selenium自动登录
 
 ### [爬虫实战](#爬虫实战)
 
-1. #### [免登录批量下载网易云音乐]( https://gitee.com/Euphoria_wang/python-spider/blob/master/wangyiyunMusic/wangyiyun.py "悬停显示")
+1. #### [免登录批量下载网易云音乐]( https://gitee.com/Euphoria_wang/python-spider/blob/master/wangyiyunMusic "悬停显示")
 2. #### [片吧视频下载](https://gitee.com/Euphoria_wang/python-spider/blob/master/pianba-m3u8%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD.py "悬停显示")
 
 ## 自动化实战

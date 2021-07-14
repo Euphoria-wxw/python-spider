@@ -116,7 +116,7 @@ class DangdangSpider(RedisSpider):
 
     def parse_e_dangdang_com(self, response):
         """
-        先请求一次获取总条数total，然后按每页101条获取数据
+        先请求一次获取总条数total，然后按每页80条获取数据
         :param response:
         """
         item = response.meta['item']

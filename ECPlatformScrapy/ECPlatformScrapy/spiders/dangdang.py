@@ -77,7 +77,7 @@ class DangdangSpider(RedisSpider):
         """
         item = response.meta['item']
         # print(item['ss_href'])
-        if 'category1' in item['ss_href'] or 'search1' in item['ss_href']:
+        if 'category' in item['ss_href'] or 'search' in item['ss_href']:
             li_list = response.xpath('//ul[@class="bigimg"]/li')
             for li in li_list:
                 item['book_price_n'] = li.xpath('.//span[@class="search_now_price"]/text()').extract_first()
